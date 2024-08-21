@@ -1,0 +1,160 @@
+*/* Reset default styles */
+* 
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+ }
+ 
+ /* Body styles */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+
+.container {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   background-color: #f5f5f5;
+   width: 100%; /* Add this line to make the container full width */
+}
+
+ 
+ /* Button styles */
+ .btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+ }
+ 
+ .btn:hover {
+    background-color: #45A049;
+ }
+ 
+ /* Error message styles */
+ .error-msg {
+    margin: 10px 0;
+    padding: 10px;
+    background: #FF5722;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+ }
+ 
+ /* Header styles */
+ .header {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .header h1 {
+    font-size: 36px;
+    margin: 0;
+ }
+ 
+ /* Form container styles */
+ .form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #ffffff;
+ }
+ 
+ /* Form styles */
+ .form-container form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background: #ffffff; /* Slightly darker green background */
+    text-align: center;
+    width: 500px;
+ }
+ 
+ .form-container form h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+ }
+ 
+ .form-container form input,
+ .form-container form select {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #ffffff;
+    border-radius: 5px;
+ }
+ 
+ .form-container form select option {
+    background: #D1EAD7;
+ }
+ 
+ .form-container form .form-btn {
+    background: #4CAF50;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ 
+ .form-container form .form-btn:hover {
+    background: #45A049;
+ }
+ 
+ .form-container form p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+ }
+ 
+ .form-container form p a {
+    color: #4CAF50;
+ }
+ .departments-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.departments-list a {
+    width: calc(50% - 20px); /* Adjust the width to control the two-column layout */
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.departments-list a:hover {
+    color: #00f;
+}
